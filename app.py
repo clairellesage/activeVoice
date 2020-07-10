@@ -8,7 +8,7 @@ def newsAPI(keyword: str):
 	       f'q={keyword}&'
 	       'from=2020-06-18&'
 	       'sortBy=relevancy&'
-	       'apiKey=53eefc1a132347b0acae957ce1a74e0b')
+	       'apiKey={apiKey}')
 
 	response = requests.get(url)
 
